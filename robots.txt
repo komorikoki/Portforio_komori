@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://komorikoki.github.io/Portforio_komori/sitemap.xml
