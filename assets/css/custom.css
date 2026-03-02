@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Ze;
+    src: url('/fonts/ZenMaruGothic-Medium.ttf');
+}
+
+html {
+    font-family: Ze;
+}
