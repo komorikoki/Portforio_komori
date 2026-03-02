@@ -4,6 +4,8 @@
 
 theme = "blowfish" # UNCOMMENT THIS LINE
 # baseURL = "https://your_domain.com/"
+baseURL = "https://komorikoki.github.io/Portforio_komori/"
+canonifyURLs = true
 defaultContentLanguage = "ja"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles

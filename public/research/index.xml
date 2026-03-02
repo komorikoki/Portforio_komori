@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on Komori&#39;s portfolio</title>
-    <link>//localhost:1313/research/</link>
+    <link>http://localhost:1313/Portforio_komori/research/</link>
     <description>Recent content in Research on Komori&#39;s portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <managingEditor>kouki710710b@gmail.com (小森 光希)</managingEditor>
     <webMaster>kouki710710b@gmail.com (小森 光希)</webMaster>
     <copyright>© 2026 小森 光希</copyright>
-    <atom:link href="//localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Portforio_komori/research/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

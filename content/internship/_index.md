@@ -4,7 +4,7 @@ description: "自然言語処理とMeta-Attentionの研究"
 math: true # KaTeXを有効化
 ---
 
-## Value-State Gated Attention (VMA)
+<!-- ## Value-State Gated Attention (VMA)
 
 現在取り組んでいる「Meta Attention」アーキテクチャの研究です。
 
@@ -14,4 +14,6 @@ math: true # KaTeXを有効化
 
 $$
 \text{VMA}(Q, K, V) = \sigma(g) \cdot \text{Attention}(Q, K, V)
-$$
+$$ -->
+
+只今準備中
