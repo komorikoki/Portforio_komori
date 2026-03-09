@@ -22,3 +22,9 @@ $$ y = Softmax(\frac{xW_q(xW_k)^T}{\sqrt d_k})xW_v $$
 [先行研究](https://arxiv.org/pdf/1905.09418)において上式で計算されるAttention Networkを内在するTransformerは、WMT翻訳タスクにおいて79%のAttention Headの削減により約0.5%, 92%のAttention Headの削減により約10.5%の性能低下にとどまることが報告されました。これにより、現状のAttention Networkの計算では多くのAttention Headが削減可能なことが示され、計算効率性の面で非常に大きな課題を有していることが明らかになりました。
 
 ### VMAの提案
+
+前述した課題に対し、私が提案するValue State Gated Attention (VMA) ではAttention Network内部に関係を一般化し、更に再度重みづけを付加する以下式で表されるアーキテクチャを用いることで、課題に潜在化している本質的な問題であるAttention Networkがトークン間の特徴を深く把握できないという問題を解決します。VMAアーキテクチャでは通常Attentionの出力yを以て以下式で出力zを得ます。
+
+<div>
+$$ y = Softmax(\frac{(kernel(y)W_{QP})(kernel(y)W_{KP})^T}{\sqrt d_k})y $$
+</div>

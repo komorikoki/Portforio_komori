@@ -5,7 +5,7 @@
 theme = "blowfish" # UNCOMMENT THIS LINE
 # baseURL = "https://your_domain.com/"
 baseURL = "https://komorikoki.github.io/Portforio_komori/"
-canonifyURLs = true
+canonifyURLs = false
 defaultContentLanguage = "ja"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
@@ -69,3 +69,10 @@ enableEmoji = true
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      typographer = false # 勝手な記号変換（引用符など）をオフにする
+    [markup.goldmark.renderer]
+      unsafe = true # HTMLタグや特殊な記述をそのまま通すようにする
